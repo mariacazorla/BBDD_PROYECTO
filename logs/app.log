@@ -1,0 +1,52 @@
+2025-05-07 19:12:04 WARN  UserDAOImpl:52 - Login fallido para 'usuario_inexistente'
+2025-05-07 19:12:04 INFO  UserDAOImpl:25 - Usuario registrado: test_user
+2025-05-07 19:12:04 INFO  UserDAOImpl:50 - Login exitoso para 'test_user'
+2025-05-07 19:25:36 WARN  UserDAOImpl:66 - Login fallido para 'usuario_inexistente'
+2025-05-07 19:25:36 INFO  UserDAOImpl:36 - Usuario registrado: usuario_duplicado
+2025-05-07 19:25:36 WARN  UserDAOImpl:26 - Intento de registro con nombre de usuario ya existente: usuario_duplicado
+2025-05-07 19:25:36 INFO  UserDAOImpl:64 - Login exitoso para 'usuario_duplicado'
+2025-05-07 19:25:36 WARN  UserDAOImpl:66 - Login fallido para 'usuario_duplicado'
+2025-05-07 19:25:36 INFO  UserDAOImpl:36 - Usuario registrado: test_user
+2025-05-07 19:25:36 INFO  UserDAOImpl:64 - Login exitoso para 'test_user'
+2025-05-07 19:31:22 INFO  UserDAOImpl:36 - Usuario registrado: jordi
+2025-05-07 19:31:22 INFO  UserDAOImpl:64 - Login exitoso para 'jordi'
+2025-05-07 19:31:22 WARN  UserDAOImpl:66 - Login fallido para 'maria'
+2025-05-07 19:31:22 INFO  UserDAOImpl:36 - Usuario registrado: miguel
+2025-05-07 19:31:22 WARN  UserDAOImpl:26 - Intento de registro con nombre de usuario ya existente: miguel
+2025-05-07 19:31:22 INFO  UserDAOImpl:64 - Login exitoso para 'miguel'
+2025-05-07 19:31:22 WARN  UserDAOImpl:66 - Login fallido para 'miguel'
+2025-05-07 19:38:35 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: maria
+2025-05-07 19:38:35 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-07 19:38:35 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: miguel
+2025-05-07 19:38:35 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-07 19:38:35 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'miguel'
+2025-05-07 19:38:35 INFO  UserDAOImpl:43 - Usuario registrado: jordi
+2025-05-07 19:38:35 INFO  UserDAOImpl:85 - Login exitoso para 'jordi'
+2025-05-07 19:46:30 INFO  UserDAOImpl:43 - Usuario registrado: jordi
+2025-05-07 19:46:30 INFO  UserDAOImpl:85 - ¡Hola '!jordi', has iniciado sesión correctamente
+2025-05-07 19:46:30 WARN  UserDAOImpl:71 - El usuariomariaya existe. Prueba con otro
+2025-05-07 19:46:30 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-07 19:46:30 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: miguel
+2025-05-07 19:46:30 INFO  UserDAOImpl:85 - ¡Hola '!miguel', has iniciado sesión correctamente
+2025-05-07 19:46:30 WARN  UserDAOImpl:88 - 'miguel', la contraseña que has introducido no es correcta
+2025-05-07 19:48:46 WARN  UserDAOImpl:71 - El usuario 'maria' ya existe. Prueba con otro
+2025-05-07 19:48:46 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-07 19:48:46 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: miguel
+2025-05-07 19:48:46 INFO  UserDAOImpl:85 - ¡Hola! miguel, has iniciado sesión correctamente
+2025-05-07 19:48:46 WARN  UserDAOImpl:88 - miguel, la contraseña que has introducido no es correcta
+2025-05-07 19:48:46 INFO  UserDAOImpl:43 - Usuario registrado: jordi
+2025-05-07 19:48:46 INFO  UserDAOImpl:85 - ¡Hola! jordi, has iniciado sesión correctamente
+2025-05-07 19:54:14 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: maria
+2025-05-07 19:54:15 INFO  UserDAOImpl:43 - Usuario registrado: jordi
+2025-05-07 19:54:15 INFO  UserDAOImpl:85 - Login exitoso para 'jordi'
+2025-05-07 19:54:15 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-07 19:54:15 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: miguel
+2025-05-07 19:54:15 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-07 19:54:15 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'miguel'
+2025-05-07 20:02:32 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-07 20:02:32 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-07 20:02:32 INFO  UserDAOImpl:85 - Login exitoso para 'maria'
+2025-05-07 20:02:32 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-07 20:02:32 INFO  UserDAOImpl:43 - Usuario registrado: jordi
+2025-05-07 20:02:32 INFO  UserDAOImpl:85 - Login exitoso para 'jordi'
+2025-05-07 20:02:32 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: miguel
