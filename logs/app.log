@@ -50,3 +50,720 @@
 2025-05-07 20:02:32 INFO  UserDAOImpl:43 - Usuario registrado: jordi
 2025-05-07 20:02:32 INFO  UserDAOImpl:85 - Login exitoso para 'jordi'
 2025-05-07 20:02:32 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: miguel
+2025-05-08 15:20:05 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: miguel
+2025-05-08 15:20:05 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: jordi
+2025-05-08 15:20:05 INFO  UserDAOImpl:85 - Login exitoso para 'jordi'
+2025-05-08 15:20:05 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:20:05 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:22:04 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: jordi
+2025-05-08 15:22:04 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-08 15:22:04 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-08 15:22:04 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-08 15:22:04 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:22:04 INFO  UserDAOImpl:85 - Login exitoso para 'maria'
+2025-05-08 15:22:04 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-08 15:24:53 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: jordi
+2025-05-08 15:24:53 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-08 15:24:53 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-08 15:24:53 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-08 15:24:53 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:24:53 INFO  UserDAOImpl:85 - Login exitoso para 'maria'
+2025-05-08 15:24:54 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-08 15:57:51 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: jordi
+2025-05-08 15:57:51 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-08 15:57:51 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:57:51 INFO  UserDAOImpl:85 - Login exitoso para 'maria'
+2025-05-08 15:57:51 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-08 15:57:51 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-08 15:57:51 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-08 15:58:32 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: jordi
+2025-05-08 15:58:32 INFO  UserDAOImpl:43 - Usuario registrado: miguel
+2025-05-08 15:58:32 INFO  UserDAOImpl:85 - Login exitoso para 'miguel'
+2025-05-08 15:58:32 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-08 15:58:32 WARN  UserDAOImpl:32 - Intento de registro con nombre de usuario existente: maria
+2025-05-08 15:58:32 INFO  UserDAOImpl:85 - Login exitoso para 'maria'
+2025-05-08 15:58:32 WARN  UserDAOImpl:88 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-08 15:59:27 WARN  UserDAOImpl:71 - Intento de login con usuario inexistente: jordi
+2025-05-08 16:03:59 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-08 16:03:59 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-15 22:34:12 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-15 22:34:12 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-15 22:38:08 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: maria
+2025-05-15 22:38:08 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: maria
+2025-05-15 22:38:19 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: maria
+2025-05-15 22:38:19 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: maria
+2025-05-15 22:40:57 INFO  UserDAOImpl:43 - Usuario registrado: maria
+2025-05-15 22:40:57 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: maria
+2025-05-15 22:40:57 INFO  UserDAOImpl:84 - Login exitoso para 'maria'
+2025-05-15 22:40:57 WARN  UserDAOImpl:87 - Login fallido por contraseña incorrecta para 'maria'
+2025-05-19 11:26:01 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:26:01 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:28:34 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:28:34 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: usuario1
+2025-05-19 11:37:20 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:37:20 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: usuario1
+2025-05-19 11:37:51 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:37:51 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: usuario1
+2025-05-19 11:39:34 INFO  UserDAOImpl:43 - Usuario registrado: testuser
+2025-05-19 11:39:34 INFO  UserDAOImpl:89 - Login exitoso para 'testuser'
+2025-05-19 11:39:34 WARN  UserDAOImpl:92 - Login fallido por contraseña incorrecta para 'testuser'
+2025-05-19 11:39:34 INFO  UserDAOImpl:43 - Usuario registrado: jugador1
+2025-05-19 11:39:34 INFO  PartidaDAOImpl:56 - Partida creada con ID: 1
+2025-05-19 11:39:34 INFO  UserDAOImpl:123 - Partida iniciada para jugador1 con ID: 1
+2025-05-19 11:39:34 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: noexiste
+2025-05-19 11:39:34 INFO  UserDAOImpl:43 - Usuario registrado: usuario1
+2025-05-19 11:39:34 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: usuario1
+2025-05-19 11:39:34 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: noexiste
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:148 - No hay objetos disponibles en la tienda
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de Maná
+2025-05-19 11:40:11 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Poción de Maná
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de Vida
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 11:40:11 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Hacha de Batalla
+2025-05-19 11:40:11 WARN  TiendaDAOImpl:104 - No se encontró el objeto en la tienda: ObjetoInexistente
+2025-05-19 11:40:27 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:56 - Partida creada con ID: 2
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:27 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:56 - Partida creada con ID: 3
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:56 - Partida creada con ID: 4
+2025-05-19 11:40:27 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:56 - Partida creada con ID: 5
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:240 - Partida actualizada: 5
+2025-05-19 11:40:27 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:56 - Partida creada con ID: 6
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Espada (x1) a partida 6
+2025-05-19 11:40:27 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Espada (x2) a partida 6
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Espada (x2) de partida 6
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Espada (x1) de partida 6
+2025-05-19 11:40:28 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 7
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:492 - Partida eliminada: 7
+2025-05-19 11:40:28 WARN  PartidaDAOImpl:123 - Intento de obtener partida inexistente: 7
+2025-05-19 11:40:28 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 8
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 8
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Escudo (x1) a partida 8
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:573 - Objeto Escudo comprado para partida 8
+2025-05-19 11:40:28 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 9
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 9
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 9
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 9
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 9
+2025-05-19 11:40:28 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 10
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 10
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 10
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 10
+2025-05-19 11:40:28 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 11
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:40:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:40:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 11
+2025-05-19 11:50:52 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 12
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Hacha de Batalla
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 13
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Espada (x1) a partida 13
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Espada (x2) a partida 13
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Espada (x2) de partida 13
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Espada (x1) de partida 13
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 14
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:492 - Partida eliminada: 14
+2025-05-19 11:50:53 WARN  PartidaDAOImpl:123 - Intento de obtener partida inexistente: 14
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 15
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 16
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 17
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 18
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 19
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 20
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 20
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 21
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 WARN  TiendaDAOImpl:104 - No se encontró el objeto en la tienda: ObjetoInexistente
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 22
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 22
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 22
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 22
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 23
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:53 INFO  UserDAOImpl:43 - Usuario registrado: duplicado
+2025-05-19 11:50:53 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: duplicado
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 24
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: noexiste
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 25
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 26
+2025-05-19 11:50:54 INFO  UserDAOImpl:123 - Partida iniciada para testjugador con ID: 26
+2025-05-19 11:50:54 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: noexiste
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 27
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: nuevouser
+2025-05-19 11:50:54 INFO  UserDAOImpl:89 - Login exitoso para 'nuevouser'
+2025-05-19 11:50:54 WARN  UserDAOImpl:92 - Login fallido por contraseña incorrecta para 'nuevouser'
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 28
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:240 - Partida actualizada: 28
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Escudo (x1) a partida 28
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:573 - Objeto Escudo comprado para partida 28
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 29
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 29
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:240 - Partida actualizada: 29
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 29
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 29
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: testjugador
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 30
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:50:54 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:50:54 INFO  UserDAOImpl:43 - Usuario registrado: jugadorFlujo
+2025-05-19 11:50:54 INFO  UserDAOImpl:89 - Login exitoso para 'jugadorFlujo'
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:56 - Partida creada con ID: 31
+2025-05-19 11:50:54 INFO  UserDAOImpl:123 - Partida iniciada para jugadorFlujo con ID: 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:240 - Partida actualizada: 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:240 - Partida actualizada: 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 31
+2025-05-19 11:50:54 INFO  PartidaDAOImpl:492 - Partida eliminada: 31
+2025-05-19 11:58:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 11:58:27 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 11:58:28 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 11:58:28 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 11:58:28 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 11:58:28 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 11:58:28 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 11:58:28 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 11:58:28 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:56 - Partida creada con ID: 32
+2025-05-19 11:58:28 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:672 - Inventario de partida 32: 1 tipos de objetos
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:240 - Partida actualizada: 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 32
+2025-05-19 11:58:28 INFO  PartidaDAOImpl:669 - El inventario de la partida 32 está vacío
+2025-05-19 12:01:37 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 12:01:37 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 12:01:37 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 12:01:37 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 12:01:37 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 12:01:37 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 12:01:37 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 12:01:37 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 12:01:37 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:56 - Partida creada con ID: 33
+2025-05-19 12:01:37 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:240 - Partida actualizada: 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:672 - Inventario de partida 33: 1 tipos de objetos
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:240 - Partida actualizada: 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 33
+2025-05-19 12:01:37 INFO  PartidaDAOImpl:669 - El inventario de la partida 33 está vacío
+2025-05-19 12:20:52 INFO  JuegoTest:44 - === PRUEBAS TIENDA ===
+2025-05-19 12:20:52 INFO  JuegoTest:47 - Añadiendo objetos a la tienda...
+2025-05-19 12:20:52 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 12:20:52 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 12:20:52 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 12:20:52 INFO  JuegoTest:53 - Intentando añadir objeto duplicado...
+2025-05-19 12:20:52 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 12:20:52 INFO  JuegoTest:56 - Resultado: El objeto ya existe en la tienda
+2025-05-19 12:20:52 INFO  JuegoTest:59 - Listando objetos de la tienda:
+2025-05-19 12:20:52 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 12:20:52 INFO  JuegoTest:62 - - Escudo (ARMADURAS): 30 monedas
+2025-05-19 12:20:52 INFO  JuegoTest:62 - - Espada (ARMAS): 50 monedas
+2025-05-19 12:20:52 INFO  JuegoTest:62 - - Poción de vida (POCIONES): 25 monedas
+2025-05-19 12:20:52 INFO  JuegoTest:66 - 
+=== PRUEBAS USUARIO ===
+2025-05-19 12:20:52 INFO  JuegoTest:69 - Registrando usuario María...
+2025-05-19 12:20:52 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 12:20:52 INFO  JuegoTest:72 - Resultado: ¡Bienvenido, 'Maria'! Tu cuenta se ha creado correctamente.
+2025-05-19 12:20:52 INFO  JuegoTest:75 - Intentando registrar a María de nuevo...
+2025-05-19 12:20:52 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 12:20:52 INFO  JuegoTest:78 - Resultado: ¡Vaya! El nombre de usuario 'Maria' ya está en uso. Por favor, prueba con otro.
+2025-05-19 12:20:52 INFO  JuegoTest:81 - Intentando login con Miguel (no existe)...
+2025-05-19 12:20:52 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 12:20:52 INFO  JuegoTest:84 - Resultado: El usuario 'Miguel' no existe. ¿Quieres registrarte?
+2025-05-19 12:20:52 INFO  JuegoTest:87 - Haciendo login con María...
+2025-05-19 12:20:52 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 12:20:52 INFO  JuegoTest:90 - Resultado: ¡Hola de nuevo, Maria! Has iniciado sesión correctamente.
+2025-05-19 12:20:52 INFO  JuegoTest:93 - 
+=== PRUEBAS PARTIDA ===
+2025-05-19 12:20:52 INFO  JuegoTest:96 - Creando partida para María...
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:56 - Partida creada con ID: 36
+2025-05-19 12:20:52 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 36
+2025-05-19 12:20:52 INFO  JuegoTest:99 - Partida creada con ID: 36
+2025-05-19 12:20:52 INFO  JuegoTest:100 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 12:20:52 INFO  JuegoTest:103 - Consultando datos de la partida de María...
+2025-05-19 12:20:52 INFO  JuegoTest:105 - Datos de partida: 
+2025-05-19 12:20:52 INFO  JuegoTest:106 - - Usuario: Maria
+2025-05-19 12:20:52 INFO  JuegoTest:107 - - Vidas: 3
+2025-05-19 12:20:52 INFO  JuegoTest:108 - - Monedas: 100
+2025-05-19 12:20:52 INFO  JuegoTest:109 - - Puntuación: 0
+2025-05-19 12:20:52 INFO  JuegoTest:112 - 
+Comprando un objeto (Poción de vida)...
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:240 - Partida actualizada: 36
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 36
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 36
+2025-05-19 12:20:52 INFO  JuegoTest:115 - Resultado: ¡Has comprado Poción de vida por 25 monedas!
+2025-05-19 12:20:52 INFO  JuegoTest:118 - Inventario tras compra:
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:672 - Inventario de partida 36: 1 tipos de objetos
+2025-05-19 12:20:52 INFO  JuegoTest:121 - - Poción de vida: 1 unidad(es)
+2025-05-19 12:20:52 INFO  JuegoTest:126 - Monedas restantes: 75
+2025-05-19 12:20:52 INFO  JuegoTest:129 - 
+Usando la Poción de vida...
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:240 - Partida actualizada: 36
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 36
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 36
+2025-05-19 12:20:52 INFO  JuegoTest:132 - Resultado: ¡Objeto eliminado del inventario correctamente!
+2025-05-19 12:20:52 INFO  JuegoTest:135 - Inventario tras usar objeto:
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:669 - El inventario de la partida 36 está vacío
+2025-05-19 12:20:52 INFO  JuegoTest:138 - El inventario está vacío
+2025-05-19 12:20:52 INFO  JuegoTest:147 - Vidas tras usar poción: 4
+2025-05-19 12:20:52 INFO  JuegoTest:150 - 
+=== PRUEBAS MÚLTIPLES PARTIDAS ===
+2025-05-19 12:20:52 INFO  JuegoTest:153 - Creando una segunda partida para María...
+2025-05-19 12:20:52 INFO  PartidaDAOImpl:56 - Partida creada con ID: 37
+2025-05-19 12:20:52 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 37
+2025-05-19 12:20:52 INFO  JuegoTest:156 - Segunda partida creada con ID: 37
+2025-05-19 12:20:52 INFO  JuegoTest:157 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 12:20:52 INFO  JuegoTest:160 - 
+Listando todas las partidas de María:
+2025-05-19 12:20:52 INFO  JuegoTest:165 - Partida ID: 36
+2025-05-19 12:20:52 INFO  JuegoTest:166 - - Vidas: 4
+2025-05-19 12:20:52 INFO  JuegoTest:167 - - Monedas: 75
+2025-05-19 12:20:52 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 12:20:52 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 12:20:52 INFO  JuegoTest:179 - -----------------------
+2025-05-19 12:20:52 INFO  JuegoTest:165 - Partida ID: 37
+2025-05-19 12:20:52 INFO  JuegoTest:166 - - Vidas: 3
+2025-05-19 12:20:52 INFO  JuegoTest:167 - - Monedas: 100
+2025-05-19 12:20:52 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 12:20:52 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 12:20:52 INFO  JuegoTest:179 - -----------------------
+2025-05-19 12:20:52 INFO  JuegoTest:182 - 
+¡Prueba de flujo completo finalizada con éxito!
+2025-05-19 20:32:53 INFO  JuegoTest:44 - === PRUEBAS TIENDA ===
+2025-05-19 20:32:53 INFO  JuegoTest:47 - Añadiendo objetos a la tienda...
+2025-05-19 20:32:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 20:32:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 20:32:53 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 20:32:53 INFO  JuegoTest:53 - Intentando añadir objeto duplicado...
+2025-05-19 20:32:53 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 20:32:53 INFO  JuegoTest:56 - Resultado: El objeto ya existe en la tienda
+2025-05-19 20:32:53 INFO  JuegoTest:59 - Listando objetos de la tienda:
+2025-05-19 20:32:53 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 20:32:53 INFO  JuegoTest:62 - - Escudo (ARMADURAS): 30 monedas
+2025-05-19 20:32:53 INFO  JuegoTest:62 - - Espada (ARMAS): 50 monedas
+2025-05-19 20:32:53 INFO  JuegoTest:62 - - Poción de vida (POCIONES): 25 monedas
+2025-05-19 20:32:53 INFO  JuegoTest:66 - 
+=== PRUEBAS USUARIO ===
+2025-05-19 20:32:53 INFO  JuegoTest:69 - Registrando usuario María...
+2025-05-19 20:32:53 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 20:32:53 INFO  JuegoTest:72 - Resultado: ¡Bienvenido, 'Maria'! Tu cuenta se ha creado correctamente.
+2025-05-19 20:32:53 INFO  JuegoTest:75 - Intentando registrar a María de nuevo...
+2025-05-19 20:32:53 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 20:32:53 INFO  JuegoTest:78 - Resultado: ¡Vaya! El nombre de usuario 'Maria' ya está en uso. Por favor, prueba con otro.
+2025-05-19 20:32:53 INFO  JuegoTest:81 - Intentando login con Miguel (no existe)...
+2025-05-19 20:32:53 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 20:32:53 INFO  JuegoTest:84 - Resultado: El usuario 'Miguel' no existe. ¿Quieres registrarte?
+2025-05-19 20:32:53 INFO  JuegoTest:87 - Haciendo login con María...
+2025-05-19 20:32:53 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 20:32:53 INFO  JuegoTest:90 - Resultado: ¡Hola de nuevo, Maria! Has iniciado sesión correctamente.
+2025-05-19 20:32:53 INFO  JuegoTest:93 - 
+=== PRUEBAS PARTIDA ===
+2025-05-19 20:32:53 INFO  JuegoTest:96 - Creando partida para María...
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 38
+2025-05-19 20:32:53 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 38
+2025-05-19 20:32:53 INFO  JuegoTest:99 - Partida creada con ID: 38
+2025-05-19 20:32:53 INFO  JuegoTest:100 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:32:53 INFO  JuegoTest:103 - Consultando datos de la partida de María...
+2025-05-19 20:32:53 INFO  JuegoTest:105 - Datos de partida: 
+2025-05-19 20:32:53 INFO  JuegoTest:106 - - Usuario: Maria
+2025-05-19 20:32:53 INFO  JuegoTest:107 - - Vidas: 3
+2025-05-19 20:32:53 INFO  JuegoTest:108 - - Monedas: 100
+2025-05-19 20:32:53 INFO  JuegoTest:109 - - Puntuación: 0
+2025-05-19 20:32:53 INFO  JuegoTest:112 - 
+Comprando un objeto (Poción de vida)...
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 38
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 38
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 38
+2025-05-19 20:32:53 INFO  JuegoTest:115 - Resultado: ¡Has comprado Poción de vida por 25 monedas!
+2025-05-19 20:32:53 INFO  JuegoTest:118 - Inventario tras compra:
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:672 - Inventario de partida 38: 1 tipos de objetos
+2025-05-19 20:32:53 INFO  JuegoTest:121 - - Poción de vida: 1 unidad(es)
+2025-05-19 20:32:53 INFO  JuegoTest:126 - Monedas restantes: 75
+2025-05-19 20:32:53 INFO  JuegoTest:129 - 
+Usando la Poción de vida...
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:240 - Partida actualizada: 38
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 38
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 38
+2025-05-19 20:32:53 INFO  JuegoTest:132 - Resultado: ¡Objeto eliminado del inventario correctamente!
+2025-05-19 20:32:53 INFO  JuegoTest:135 - Inventario tras usar objeto:
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:669 - El inventario de la partida 38 está vacío
+2025-05-19 20:32:53 INFO  JuegoTest:138 - El inventario está vacío
+2025-05-19 20:32:53 INFO  JuegoTest:147 - Vidas tras usar poción: 4
+2025-05-19 20:32:53 INFO  JuegoTest:150 - 
+=== PRUEBAS MÚLTIPLES PARTIDAS ===
+2025-05-19 20:32:53 INFO  JuegoTest:153 - Creando una segunda partida para María...
+2025-05-19 20:32:53 INFO  PartidaDAOImpl:56 - Partida creada con ID: 39
+2025-05-19 20:32:53 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 39
+2025-05-19 20:32:53 INFO  JuegoTest:156 - Segunda partida creada con ID: 39
+2025-05-19 20:32:53 INFO  JuegoTest:157 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:32:53 INFO  JuegoTest:160 - 
+Listando todas las partidas de María:
+2025-05-19 20:32:53 INFO  JuegoTest:165 - Partida ID: 38
+2025-05-19 20:32:53 INFO  JuegoTest:166 - - Vidas: 4
+2025-05-19 20:32:53 INFO  JuegoTest:167 - - Monedas: 75
+2025-05-19 20:32:53 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:32:53 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:32:53 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:32:53 INFO  JuegoTest:165 - Partida ID: 39
+2025-05-19 20:32:53 INFO  JuegoTest:166 - - Vidas: 3
+2025-05-19 20:32:53 INFO  JuegoTest:167 - - Monedas: 100
+2025-05-19 20:32:53 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:32:53 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:32:53 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:32:53 INFO  JuegoTest:182 - 
+¡Prueba de flujo completo finalizada con éxito!
+2025-05-19 20:33:00 INFO  JuegoTest:44 - === PRUEBAS TIENDA ===
+2025-05-19 20:33:00 INFO  JuegoTest:47 - Añadiendo objetos a la tienda...
+2025-05-19 20:33:00 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 20:33:00 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 20:33:00 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 20:33:00 INFO  JuegoTest:53 - Intentando añadir objeto duplicado...
+2025-05-19 20:33:00 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 20:33:00 INFO  JuegoTest:56 - Resultado: El objeto ya existe en la tienda
+2025-05-19 20:33:00 INFO  JuegoTest:59 - Listando objetos de la tienda:
+2025-05-19 20:33:00 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 20:33:01 INFO  JuegoTest:62 - - Escudo (ARMADURAS): 30 monedas
+2025-05-19 20:33:01 INFO  JuegoTest:62 - - Espada (ARMAS): 50 monedas
+2025-05-19 20:33:01 INFO  JuegoTest:62 - - Poción de vida (POCIONES): 25 monedas
+2025-05-19 20:33:01 INFO  JuegoTest:66 - 
+=== PRUEBAS USUARIO ===
+2025-05-19 20:33:01 INFO  JuegoTest:69 - Registrando usuario María...
+2025-05-19 20:33:01 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 20:33:01 INFO  JuegoTest:72 - Resultado: ¡Bienvenido, 'Maria'! Tu cuenta se ha creado correctamente.
+2025-05-19 20:33:01 INFO  JuegoTest:75 - Intentando registrar a María de nuevo...
+2025-05-19 20:33:01 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 20:33:01 INFO  JuegoTest:78 - Resultado: ¡Vaya! El nombre de usuario 'Maria' ya está en uso. Por favor, prueba con otro.
+2025-05-19 20:33:01 INFO  JuegoTest:81 - Intentando login con Miguel (no existe)...
+2025-05-19 20:33:01 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 20:33:01 INFO  JuegoTest:84 - Resultado: El usuario 'Miguel' no existe. ¿Quieres registrarte?
+2025-05-19 20:33:01 INFO  JuegoTest:87 - Haciendo login con María...
+2025-05-19 20:33:01 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 20:33:01 INFO  JuegoTest:90 - Resultado: ¡Hola de nuevo, Maria! Has iniciado sesión correctamente.
+2025-05-19 20:33:01 INFO  JuegoTest:93 - 
+=== PRUEBAS PARTIDA ===
+2025-05-19 20:33:01 INFO  JuegoTest:96 - Creando partida para María...
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:56 - Partida creada con ID: 40
+2025-05-19 20:33:01 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 40
+2025-05-19 20:33:01 INFO  JuegoTest:99 - Partida creada con ID: 40
+2025-05-19 20:33:01 INFO  JuegoTest:100 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:01 INFO  JuegoTest:103 - Consultando datos de la partida de María...
+2025-05-19 20:33:01 INFO  JuegoTest:105 - Datos de partida: 
+2025-05-19 20:33:01 INFO  JuegoTest:106 - - Usuario: Maria
+2025-05-19 20:33:01 INFO  JuegoTest:107 - - Vidas: 3
+2025-05-19 20:33:01 INFO  JuegoTest:108 - - Monedas: 100
+2025-05-19 20:33:01 INFO  JuegoTest:109 - - Puntuación: 0
+2025-05-19 20:33:01 INFO  JuegoTest:112 - 
+Comprando un objeto (Poción de vida)...
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:240 - Partida actualizada: 40
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 40
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 40
+2025-05-19 20:33:01 INFO  JuegoTest:115 - Resultado: ¡Has comprado Poción de vida por 25 monedas!
+2025-05-19 20:33:01 INFO  JuegoTest:118 - Inventario tras compra:
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:672 - Inventario de partida 40: 1 tipos de objetos
+2025-05-19 20:33:01 INFO  JuegoTest:121 - - Poción de vida: 1 unidad(es)
+2025-05-19 20:33:01 INFO  JuegoTest:126 - Monedas restantes: 75
+2025-05-19 20:33:01 INFO  JuegoTest:129 - 
+Usando la Poción de vida...
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:240 - Partida actualizada: 40
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 40
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 40
+2025-05-19 20:33:01 INFO  JuegoTest:132 - Resultado: ¡Objeto eliminado del inventario correctamente!
+2025-05-19 20:33:01 INFO  JuegoTest:135 - Inventario tras usar objeto:
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:669 - El inventario de la partida 40 está vacío
+2025-05-19 20:33:01 INFO  JuegoTest:138 - El inventario está vacío
+2025-05-19 20:33:01 INFO  JuegoTest:147 - Vidas tras usar poción: 4
+2025-05-19 20:33:01 INFO  JuegoTest:150 - 
+=== PRUEBAS MÚLTIPLES PARTIDAS ===
+2025-05-19 20:33:01 INFO  JuegoTest:153 - Creando una segunda partida para María...
+2025-05-19 20:33:01 INFO  PartidaDAOImpl:56 - Partida creada con ID: 41
+2025-05-19 20:33:01 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 41
+2025-05-19 20:33:01 INFO  JuegoTest:156 - Segunda partida creada con ID: 41
+2025-05-19 20:33:01 INFO  JuegoTest:157 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:01 INFO  JuegoTest:160 - 
+Listando todas las partidas de María:
+2025-05-19 20:33:01 INFO  JuegoTest:165 - Partida ID: 40
+2025-05-19 20:33:01 INFO  JuegoTest:166 - - Vidas: 4
+2025-05-19 20:33:01 INFO  JuegoTest:167 - - Monedas: 75
+2025-05-19 20:33:01 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:01 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:01 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:01 INFO  JuegoTest:165 - Partida ID: 41
+2025-05-19 20:33:01 INFO  JuegoTest:166 - - Vidas: 3
+2025-05-19 20:33:01 INFO  JuegoTest:167 - - Monedas: 100
+2025-05-19 20:33:01 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:01 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:01 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:01 INFO  JuegoTest:182 - 
+¡Prueba de flujo completo finalizada con éxito!
+2025-05-19 20:33:10 INFO  JuegoTest:44 - === PRUEBAS TIENDA ===
+2025-05-19 20:33:10 INFO  JuegoTest:47 - Añadiendo objetos a la tienda...
+2025-05-19 20:33:10 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 20:33:10 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 20:33:10 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 20:33:10 INFO  JuegoTest:53 - Intentando añadir objeto duplicado...
+2025-05-19 20:33:10 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 20:33:10 INFO  JuegoTest:56 - Resultado: El objeto ya existe en la tienda
+2025-05-19 20:33:10 INFO  JuegoTest:59 - Listando objetos de la tienda:
+2025-05-19 20:33:10 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 20:33:10 INFO  JuegoTest:62 - - Escudo (ARMADURAS): 30 monedas
+2025-05-19 20:33:10 INFO  JuegoTest:62 - - Espada (ARMAS): 50 monedas
+2025-05-19 20:33:10 INFO  JuegoTest:62 - - Poción de vida (POCIONES): 25 monedas
+2025-05-19 20:33:10 INFO  JuegoTest:66 - 
+=== PRUEBAS USUARIO ===
+2025-05-19 20:33:10 INFO  JuegoTest:69 - Registrando usuario María...
+2025-05-19 20:33:10 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 20:33:10 INFO  JuegoTest:72 - Resultado: ¡Bienvenido, 'Maria'! Tu cuenta se ha creado correctamente.
+2025-05-19 20:33:10 INFO  JuegoTest:75 - Intentando registrar a María de nuevo...
+2025-05-19 20:33:10 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 20:33:10 INFO  JuegoTest:78 - Resultado: ¡Vaya! El nombre de usuario 'Maria' ya está en uso. Por favor, prueba con otro.
+2025-05-19 20:33:10 INFO  JuegoTest:81 - Intentando login con Miguel (no existe)...
+2025-05-19 20:33:10 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 20:33:10 INFO  JuegoTest:84 - Resultado: El usuario 'Miguel' no existe. ¿Quieres registrarte?
+2025-05-19 20:33:10 INFO  JuegoTest:87 - Haciendo login con María...
+2025-05-19 20:33:10 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 20:33:10 INFO  JuegoTest:90 - Resultado: ¡Hola de nuevo, Maria! Has iniciado sesión correctamente.
+2025-05-19 20:33:10 INFO  JuegoTest:93 - 
+=== PRUEBAS PARTIDA ===
+2025-05-19 20:33:10 INFO  JuegoTest:96 - Creando partida para María...
+2025-05-19 20:33:10 INFO  PartidaDAOImpl:56 - Partida creada con ID: 42
+2025-05-19 20:33:10 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 42
+2025-05-19 20:33:10 INFO  JuegoTest:99 - Partida creada con ID: 42
+2025-05-19 20:33:10 INFO  JuegoTest:100 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:10 INFO  JuegoTest:103 - Consultando datos de la partida de María...
+2025-05-19 20:33:10 INFO  JuegoTest:105 - Datos de partida: 
+2025-05-19 20:33:10 INFO  JuegoTest:106 - - Usuario: Maria
+2025-05-19 20:33:10 INFO  JuegoTest:107 - - Vidas: 3
+2025-05-19 20:33:10 INFO  JuegoTest:108 - - Monedas: 100
+2025-05-19 20:33:10 INFO  JuegoTest:109 - - Puntuación: 0
+2025-05-19 20:33:10 INFO  JuegoTest:112 - 
+Comprando un objeto (Poción de vida)...
+2025-05-19 20:33:10 INFO  PartidaDAOImpl:240 - Partida actualizada: 42
+2025-05-19 20:33:10 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 42
+2025-05-19 20:33:10 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 42
+2025-05-19 20:33:10 INFO  JuegoTest:115 - Resultado: ¡Has comprado Poción de vida por 25 monedas!
+2025-05-19 20:33:10 INFO  JuegoTest:118 - Inventario tras compra:
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:672 - Inventario de partida 42: 1 tipos de objetos
+2025-05-19 20:33:11 INFO  JuegoTest:121 - - Poción de vida: 1 unidad(es)
+2025-05-19 20:33:11 INFO  JuegoTest:126 - Monedas restantes: 75
+2025-05-19 20:33:11 INFO  JuegoTest:129 - 
+Usando la Poción de vida...
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:240 - Partida actualizada: 42
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 42
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 42
+2025-05-19 20:33:11 INFO  JuegoTest:132 - Resultado: ¡Objeto eliminado del inventario correctamente!
+2025-05-19 20:33:11 INFO  JuegoTest:135 - Inventario tras usar objeto:
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:669 - El inventario de la partida 42 está vacío
+2025-05-19 20:33:11 INFO  JuegoTest:138 - El inventario está vacío
+2025-05-19 20:33:11 INFO  JuegoTest:147 - Vidas tras usar poción: 4
+2025-05-19 20:33:11 INFO  JuegoTest:150 - 
+=== PRUEBAS MÚLTIPLES PARTIDAS ===
+2025-05-19 20:33:11 INFO  JuegoTest:153 - Creando una segunda partida para María...
+2025-05-19 20:33:11 INFO  PartidaDAOImpl:56 - Partida creada con ID: 43
+2025-05-19 20:33:11 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 43
+2025-05-19 20:33:11 INFO  JuegoTest:156 - Segunda partida creada con ID: 43
+2025-05-19 20:33:11 INFO  JuegoTest:157 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:11 INFO  JuegoTest:160 - 
+Listando todas las partidas de María:
+2025-05-19 20:33:11 INFO  JuegoTest:165 - Partida ID: 42
+2025-05-19 20:33:11 INFO  JuegoTest:166 - - Vidas: 4
+2025-05-19 20:33:11 INFO  JuegoTest:167 - - Monedas: 75
+2025-05-19 20:33:11 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:11 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:11 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:11 INFO  JuegoTest:165 - Partida ID: 43
+2025-05-19 20:33:11 INFO  JuegoTest:166 - - Vidas: 3
+2025-05-19 20:33:11 INFO  JuegoTest:167 - - Monedas: 100
+2025-05-19 20:33:11 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:11 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:11 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:11 INFO  JuegoTest:182 - 
+¡Prueba de flujo completo finalizada con éxito!
+2025-05-19 20:33:19 INFO  JuegoTest:44 - === PRUEBAS TIENDA ===
+2025-05-19 20:33:19 INFO  JuegoTest:47 - Añadiendo objetos a la tienda...
+2025-05-19 20:33:19 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Espada
+2025-05-19 20:33:19 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Escudo
+2025-05-19 20:33:19 INFO  TiendaDAOImpl:59 - Objeto añadido a la tienda: Poción de vida
+2025-05-19 20:33:19 INFO  JuegoTest:53 - Intentando añadir objeto duplicado...
+2025-05-19 20:33:19 WARN  TiendaDAOImpl:41 - Intento de añadir objeto existente: Espada
+2025-05-19 20:33:19 INFO  JuegoTest:56 - Resultado: El objeto ya existe en la tienda
+2025-05-19 20:33:19 INFO  JuegoTest:59 - Listando objetos de la tienda:
+2025-05-19 20:33:19 INFO  TiendaDAOImpl:151 - Se encontraron 3 objetos en la tienda
+2025-05-19 20:33:19 INFO  JuegoTest:62 - - Escudo (ARMADURAS): 30 monedas
+2025-05-19 20:33:19 INFO  JuegoTest:62 - - Espada (ARMAS): 50 monedas
+2025-05-19 20:33:19 INFO  JuegoTest:62 - - Poción de vida (POCIONES): 25 monedas
+2025-05-19 20:33:19 INFO  JuegoTest:66 - 
+=== PRUEBAS USUARIO ===
+2025-05-19 20:33:19 INFO  JuegoTest:69 - Registrando usuario María...
+2025-05-19 20:33:19 INFO  UserDAOImpl:43 - Usuario registrado: Maria
+2025-05-19 20:33:19 INFO  JuegoTest:72 - Resultado: ¡Bienvenido, 'Maria'! Tu cuenta se ha creado correctamente.
+2025-05-19 20:33:19 INFO  JuegoTest:75 - Intentando registrar a María de nuevo...
+2025-05-19 20:33:19 WARN  UserDAOImpl:32 - Intento de registro con usuario existente: Maria
+2025-05-19 20:33:19 INFO  JuegoTest:78 - Resultado: ¡Vaya! El nombre de usuario 'Maria' ya está en uso. Por favor, prueba con otro.
+2025-05-19 20:33:19 INFO  JuegoTest:81 - Intentando login con Miguel (no existe)...
+2025-05-19 20:33:19 WARN  UserDAOImpl:70 - Intento de login con usuario inexistente: Miguel
+2025-05-19 20:33:19 INFO  JuegoTest:84 - Resultado: El usuario 'Miguel' no existe. ¿Quieres registrarte?
+2025-05-19 20:33:19 INFO  JuegoTest:87 - Haciendo login con María...
+2025-05-19 20:33:20 INFO  UserDAOImpl:89 - Login exitoso para 'Maria'
+2025-05-19 20:33:20 INFO  JuegoTest:90 - Resultado: ¡Hola de nuevo, Maria! Has iniciado sesión correctamente.
+2025-05-19 20:33:20 INFO  JuegoTest:93 - 
+=== PRUEBAS PARTIDA ===
+2025-05-19 20:33:20 INFO  JuegoTest:96 - Creando partida para María...
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:56 - Partida creada con ID: 44
+2025-05-19 20:33:20 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 44
+2025-05-19 20:33:20 INFO  JuegoTest:99 - Partida creada con ID: 44
+2025-05-19 20:33:20 INFO  JuegoTest:100 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:20 INFO  JuegoTest:103 - Consultando datos de la partida de María...
+2025-05-19 20:33:20 INFO  JuegoTest:105 - Datos de partida: 
+2025-05-19 20:33:20 INFO  JuegoTest:106 - - Usuario: Maria
+2025-05-19 20:33:20 INFO  JuegoTest:107 - - Vidas: 3
+2025-05-19 20:33:20 INFO  JuegoTest:108 - - Monedas: 100
+2025-05-19 20:33:20 INFO  JuegoTest:109 - - Puntuación: 0
+2025-05-19 20:33:20 INFO  JuegoTest:112 - 
+Comprando un objeto (Poción de vida)...
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:240 - Partida actualizada: 44
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:383 - Objeto añadido a inventario: Poción de vida (x1) a partida 44
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:573 - Objeto Poción de vida comprado para partida 44
+2025-05-19 20:33:20 INFO  JuegoTest:115 - Resultado: ¡Has comprado Poción de vida por 25 monedas!
+2025-05-19 20:33:20 INFO  JuegoTest:118 - Inventario tras compra:
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:672 - Inventario de partida 44: 1 tipos de objetos
+2025-05-19 20:33:20 INFO  JuegoTest:121 - - Poción de vida: 1 unidad(es)
+2025-05-19 20:33:20 INFO  JuegoTest:126 - Monedas restantes: 75
+2025-05-19 20:33:20 INFO  JuegoTest:129 - 
+Usando la Poción de vida...
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:240 - Partida actualizada: 44
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:645 - Poción usada: +1 vida para partida 44
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:441 - Objeto eliminado de inventario: Poción de vida (x1) de partida 44
+2025-05-19 20:33:20 INFO  JuegoTest:132 - Resultado: ¡Objeto eliminado del inventario correctamente!
+2025-05-19 20:33:20 INFO  JuegoTest:135 - Inventario tras usar objeto:
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:669 - El inventario de la partida 44 está vacío
+2025-05-19 20:33:20 INFO  JuegoTest:138 - El inventario está vacío
+2025-05-19 20:33:20 INFO  JuegoTest:147 - Vidas tras usar poción: 4
+2025-05-19 20:33:20 INFO  JuegoTest:150 - 
+=== PRUEBAS MÚLTIPLES PARTIDAS ===
+2025-05-19 20:33:20 INFO  JuegoTest:153 - Creando una segunda partida para María...
+2025-05-19 20:33:20 INFO  PartidaDAOImpl:56 - Partida creada con ID: 45
+2025-05-19 20:33:20 INFO  UserDAOImpl:123 - Partida iniciada para Maria con ID: 45
+2025-05-19 20:33:20 INFO  JuegoTest:156 - Segunda partida creada con ID: 45
+2025-05-19 20:33:20 INFO  JuegoTest:157 - Resultado: ¡Partida iniciada correctamente!
+2025-05-19 20:33:20 INFO  JuegoTest:160 - 
+Listando todas las partidas de María:
+2025-05-19 20:33:20 INFO  JuegoTest:165 - Partida ID: 44
+2025-05-19 20:33:20 INFO  JuegoTest:166 - - Vidas: 4
+2025-05-19 20:33:20 INFO  JuegoTest:167 - - Monedas: 75
+2025-05-19 20:33:20 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:20 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:20 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:20 INFO  JuegoTest:165 - Partida ID: 45
+2025-05-19 20:33:20 INFO  JuegoTest:166 - - Vidas: 3
+2025-05-19 20:33:20 INFO  JuegoTest:167 - - Monedas: 100
+2025-05-19 20:33:20 INFO  JuegoTest:168 - - Puntuación: 0
+2025-05-19 20:33:20 INFO  JuegoTest:177 - - Inventario: vacío
+2025-05-19 20:33:20 INFO  JuegoTest:179 - -----------------------
+2025-05-19 20:33:20 INFO  JuegoTest:182 - 
+¡Prueba de flujo completo finalizada con éxito!

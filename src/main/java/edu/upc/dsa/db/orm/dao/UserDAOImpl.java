@@ -29,11 +29,11 @@ public class UserDAOImpl implements IUserDAO {
             List<Object> result = session.findAll(Usuario.class, params);
             if (!result.isEmpty()) {
                 mensajeResultado = "¡Vaya! El nombre de usuario '" + usuario + "' ya está en uso. Por favor, prueba con otro.";
-                logger.warn("Intento de registro con nombre de usuario existente: " + usuario);
+                logger.warn("Intento de registro con usuario existente: " + usuario);
                 return false;
             }
 
-            // Si no existe, proceder con el registro
+            // Si no existe, proceder a añadirlo
             Usuario user = new Usuario();
             user.setNombre_usuario(usuario);
             user.setContraseña(password);
@@ -43,9 +43,8 @@ public class UserDAOImpl implements IUserDAO {
             logger.info("Usuario registrado: " + usuario);
 
             return true;
-
         } catch (Exception e) {
-            mensajeResultado = "Ha ocurrido un error durante el registro. Por favor, inténtalo de nuevo más tarde.";
+            mensajeResultado = "Ha ocurrido un error durante el registro. Por favor, inténtalo de nuevo más tarde. Error: " + e.getMessage();
             logger.error("Error al registrar usuario " + usuario, e);
             return false;
         } finally {
@@ -61,7 +60,7 @@ public class UserDAOImpl implements IUserDAO {
         try {
             session = FactorySession.openSession();
 
-            // Primero verificamos si el usuario existe
+            // Primero verificar si el usuario existe
             HashMap<String, Object> userParams = new HashMap<>();
             userParams.put("nombre_usuario", nombre_usuario);
 
@@ -72,7 +71,12 @@ public class UserDAOImpl implements IUserDAO {
                 return false;
             }
 
-            // Si el usuario existe, verificamos la contraseña
+            // Si contraseña es null, solo estamos verificando que el usuario existe
+            if (contraseña == null) {
+                return true;
+            }
+
+            // Si el usuario existe, verificar la contraseña
             HashMap<String, Object> loginParams = new HashMap<>();
             loginParams.put("nombre_usuario", nombre_usuario);
             loginParams.put("contraseña", contraseña);
@@ -89,12 +93,39 @@ public class UserDAOImpl implements IUserDAO {
             }
 
         } catch (Exception e) {
-            mensajeResultado = "Ha ocurrido un error al iniciar sesión. Por favor, inténtalo de nuevo más tarde.";
+            mensajeResultado = "Ha ocurrido un error al iniciar sesión. Por favor, inténtalo de nuevo más tarde. Error: " + e.getMessage();
             logger.error("Error en loginUsuario para " + nombre_usuario, e);
         } finally {
             if (session != null) session.close();
         }
 
         return ok;
+    }
+
+    @Override
+    public int iniciarPartida(String nombreUsuario) {
+        // Comprobamos que el usuario existe
+        if (!loginUsuario(nombreUsuario, null)) {
+            return -1; // El mensaje ya estará establecido por loginUsuario
+        }
+
+        // Si existe, creamos la partida con valores iniciales
+        int vidasIniciales = 3;
+        int monedasIniciales = 100;
+        int puntuacionInicial = 0;
+
+        // Usamos el DAO de partidas
+        IPartidaDAO partidaDAO = new PartidaDAOImpl();
+        int idPartida = partidaDAO.crearPartida(nombreUsuario, vidasIniciales, monedasIniciales, puntuacionInicial);
+
+        if (idPartida > 0) {
+            mensajeResultado = "¡Partida iniciada correctamente!";
+            logger.info("Partida iniciada para " + nombreUsuario + " con ID: " + idPartida);
+        } else {
+            mensajeResultado = "Error al iniciar partida para " + nombreUsuario;
+            logger.error(mensajeResultado);
+        }
+
+        return idPartida;
     }
 }
